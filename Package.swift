@@ -12,6 +12,6 @@ let package = Package(
     .package(url: "https://github.com/googlemaps/ios-maps-sdk.git", .upToNextMajor(from: "9.0.0")),
   ],
   targets: [
-    .target(name: "RxGoogleMaps", dependencies: ["RxSwift", "RxCocoa", "GoogleMaps", "GoogleMapsCore", "GoogleMapsBase"]),
+    .target(name: "RxGoogleMaps", dependencies: ["RxSwift", "RxCocoa", "GoogleMaps"]),
   ]
 )
