@@ -9,7 +9,7 @@ let package = Package(
   ],
   dependencies: [
     .package(url: "https://github.com/ReactiveX/RxSwift.git", .upToNextMajor(from: "6.6.0")),
-    .package(url: "https://github.com/gomore/GoogleMaps-SPM.git", .upToNextMajor(from: "7.3.0")),
+    .package(url: "https://github.com/googlemaps/ios-maps-sdk.git", .upToNextMajor(from: "9.0.0")),
   ],
   targets: [
     .target(name: "RxGoogleMaps", dependencies: ["RxSwift", "RxCocoa", "GoogleMaps", "GoogleMapsCore", "GoogleMapsBase"]),
